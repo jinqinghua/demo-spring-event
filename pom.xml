@@ -12,6 +12,7 @@
 
     <modules>
         <module>event-async</module>
+        <module>event-async-smart-listener</module>
         <module>event-sync</module>
         <module>event-transactional</module>
     </modules>
