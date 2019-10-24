@@ -6,15 +6,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>demo-sprinng-event</artifactId>
-    <version>0.1</version>
+    <artifactId>demo-spring-event</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>event-async</module>
-        <module>event-async-smart-listener</module>
-        <module>event-sync</module>
-        <module>event-transactional</module>
+        <module>event_10-sync</module>
+        <module>event_20-async</module>
+        <module>event_30-async-smart-listener</module>
+        <module>event_40-transactional</module>
+        <module>event_50-transactional-event-listener</module>
     </modules>
 
 </project>
