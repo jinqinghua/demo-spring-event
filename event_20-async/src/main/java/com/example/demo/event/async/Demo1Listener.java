@@ -15,6 +15,7 @@ import java.util.Date;
 public class Demo1Listener implements ApplicationListener<DemoEvent> {
 
     public void onApplicationEvent(DemoEvent event) {
+        log.debug("--->{}={}={}", Thread.currentThread().getId(), this.getClass(), ObjectContext.get());
         log.debug("--->{}, Demo1Listener receive the message:{}", new Date(), event.getMessage());
     }
 

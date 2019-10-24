@@ -13,6 +13,7 @@ import java.util.Date;
 public class Demo2Listener implements ApplicationListener<DemoEvent> {
 
     public void onApplicationEvent(DemoEvent event) {
+        log.debug("--->{}<-{}", Thread.currentThread().getId(), this.getClass());
         log.debug("--->{}, Demo2Listener receive the message:{}", new Date(), event.getMessage());
         log.debug("--->{}, Demo2Listener start to handle message", new Date());
         try {
