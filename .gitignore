@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-### OS ###
+### macOS ###
 .DS_Store
 
 ### Windows ###
